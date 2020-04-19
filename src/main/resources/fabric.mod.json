@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "oreoverhaul",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "name": "Ore Overhaul",
   "description": "Overhaul to ore generation",

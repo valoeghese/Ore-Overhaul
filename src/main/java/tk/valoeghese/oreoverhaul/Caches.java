@@ -57,8 +57,9 @@ public final class Caches {
 			double z = 0.0011 * pos.getZ();
 
 			for (int i = 0; i < 8; ++i) {
-				//noise[i] = 0.8 * generator.sample(x, z) + 0.5; LESS COMMON, [-0.3,1.3]
-				noise[i] = 0.95 * generator.sample(x, z) + 0.65; // [-0.3,1.6]
+				//noise[i] = 0.8 * generator.sample(x, z) + 0.5; OLD ALGORITHM, [-0.3,1.3]
+				double sample = 0.95 * generator.sample(x, z) + 0.65; // [-0.3,1.6]
+				noise[i] = sample < 0 ? 0 : sample;
 				x += 0.23;
 			}
 		}
