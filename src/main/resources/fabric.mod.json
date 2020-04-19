@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "oreoverhaul",
+  "version": "1.0.0",
+
+  "name": "Ore Overhaul",
+  "description": "Overhaul to ore generation",
+  "license": "LGPL-3.0-Only",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tk.valoeghese.oreoverhaul.OreOverhaul"
+    ]
+  },
+  "mixins": [
+    "oreoverhaul.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  }
+}
