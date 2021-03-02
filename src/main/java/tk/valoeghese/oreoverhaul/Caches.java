@@ -53,8 +53,8 @@ public final class Caches {
 		}
 
 		if (regen) {
-			double x = 0.0011 * pos.getX();
-			double z = 0.0011 * pos.getZ();
+			double x = 0.0019 * pos.getX();
+			double z = 0.0019 * pos.getZ();
 
 			for (int i = 0; i < 8; ++i) {
 				//noise[i] = 0.8 * generator.sample(x, z) + 0.5; OLD ALGORITHM, [-0.3,1.3]

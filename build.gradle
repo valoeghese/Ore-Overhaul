@@ -30,6 +30,8 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_version}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	implementation "tk.valoeghese:ZoesteriaConfig:1.2.0"
+	include "tk.valoeghese:ZoesteriaConfig:1.2.0"
 	compileOnly "com.google.code.findbugs:jsr305:3.0.2"
 }
 
